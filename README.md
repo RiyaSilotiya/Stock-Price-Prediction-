@@ -8,7 +8,7 @@ The historical stock price data of Apple Inc. was used for training and testing 
 Stock traders mainly use three indicators for prediction: OHLC average (average of Open, High, Low and Closing Prices), HLC average (average of High, Low and Closing Prices) and Closing price, In this project, OHLC average has been used.
 
 ## Data Pre-processing
- The dataset has been converted into OHLC average, resulting in a one-column dataset. This one-column dataset was then transformed into a two-column time series format, where the first column represents the stock price at time t, and the second column represents the stock price at time t+1. The stock price data was preprocessed to handle missing values, normalize the data, and create sequences with appropriate timesteps for training the LSTM model. Scaling and inverse scaling techniques were implemented to enhance the accuracy of the predictions.
+ The dataset has been converted into OHLC average, resulting in a one-column dataset. This one-column dataset was then transformed into a two-column time series format, where the first column represents the stock price at time t, and the second column represents the stock price at time t+1. The stock price data was preprocessed to handle missing values, normalize the data, and create sequences with timesteps for training the LSTM model. Scaling and inverse scaling techniques were implemented to enhance the accuracy of the predictions.
 
 ## LSTM-based RNN Model
 Long Short-Term Memory (LSTM) is a type of Recurrent Neural Network (RNN) designed to capture long-term dependencies in sequential data. In this project, we designed and configured an LSTM model with appropriate timesteps to learn patterns and predict future stock prices.
