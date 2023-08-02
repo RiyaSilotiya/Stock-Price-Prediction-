@@ -17,7 +17,7 @@ Long Short-Term Memory (LSTM) is a type of Recurrent Neural Network (RNN) design
 The LSTM-based model was trained using the preprocessed historical stock price data. The model was optimized using RMSProp optimizer and mean squared error loss functions and evaluation metrics.
 
 ## Model Evaluation
-The performance of the stock price prediction model was evaluated using the Mean Absolute Error (MAE) metric. The achieved MAE of 1.51 indicates the model's ability to accurately predict future stock prices.
+The performance of the stock price prediction model was evaluated using the Mean Absolute Error (MAE) metric. 
 
 ## Results
 The LSTM-based stock price prediction model successfully achieved a mean absolute error (MAE) of 1.51, showcasing its effectiveness in predicting future stock prices of Apple Inc. This model has potential implications in assisting investors and traders in making informed decisions regarding stock trading and investment strategies.
